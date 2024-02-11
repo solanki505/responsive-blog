@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    border-top: 23px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 245, 245);
+}
+
+.nav-left {
+    font-size: 2vw;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margine: 0 14px;
+    font-family: var(--font1);
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+
+}
+
+.nav-right {
+    font-size: 2vw;
+}
+
+.content {
+    height: 254px;
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 12px;
+   background-image: url(../"C:\Users\dasch\OneDrive\Desktop\vecteezy_team-enter-optimization-seo-ideas-for-blog-and-web-content_4579194.jpg");
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img{
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.content-left{
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+.home-articles{
+height: 955px;
+padding-top:  23px;
+background-color: rgb(248, 245, 245);
+margin-top: 33px;
+
+}
+.home-article{
+
+}
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article img{
+    width: 300px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 1px 35px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.google.com/specimen/Workbench');
+
+:root {
+    --main-bg-color: purple;
+    --font1: 'workbench', cursive;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+   cursor:pointer; 
+   transition:all 0.3s ease-in-out;
+}
+.btn:hover{
+    color:white ;
+    background: var(--main-bg-color);
+}
+
+.form-input {}
+.nav-left ul li{
+    transition:all 0.3s ease-in-out;
+}
+.nav-left ul li:hover{
+  
+    font-weight: bolder;
+    
+}
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
